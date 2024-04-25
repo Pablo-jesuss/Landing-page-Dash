@@ -6,6 +6,23 @@ body {
   font-family: sans-serif;
 }
 
+.icon {
+  vertical-align: middle;
+  line-height: 1px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.header-right {
+  vertical-align: middle;
+  line-height: 1px;
+  font-size: 26px;
+}
+
+.icon,
+.header-right {
+  margin-right: 5px;
+}
 .App-container {
   display: grid;
   grid-template-columns: 260px 1fr 1fr 1fr;
