@@ -7,7 +7,7 @@ import Home from "./Home";
 
 function App() {
   return (
-    <div className="App-container">
+    <div className="grid-container">
       <Header />
       <Sidebar />
       <Home />
