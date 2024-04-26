@@ -204,4 +204,21 @@ body {
   .sidebar-title > span {
     display: inline;
   }
+
+  .main-cards {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+
+  .charts {
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header-left {
+    display: none;
+  }
 }
