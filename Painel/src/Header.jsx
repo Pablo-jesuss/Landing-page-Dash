@@ -7,7 +7,7 @@ import {
   BsJustify,
 } from "react-icons/bs";
 
-const Header = (OpenSidebar) => {
+const Header = ({ OpenSidebar }) => {
   return (
     <header className="header">
       <div className="menu-icon">
